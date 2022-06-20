@@ -10,9 +10,7 @@ USE supermark;
     apellido1 VARCHAR(50) NOT NULL,
     dni INT NOT NULL ,
     domicilio VARCHAR(25) NOT NULL,
-    direccion VARCHAR(50) NOT NULL,
+    direccion VARCHAR(50) NOT NULL
     telefono VARCHAR(9),
-    fecha_nacimiento DATE NOT NULL,
-    sexo ENUM('H', 'M') NOT NULL,
-    tipo ENUM('profesor', 'alumno') NOT NULL
+    fecha_nacimiento DATE NOT NULL
 );
